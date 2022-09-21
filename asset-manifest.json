@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/takeoff-staff-test-task/static/css/main.22dfeec4.css",
+    "main.js": "/takeoff-staff-test-task/static/js/main.e3980116.js",
+    "SignUp.css": "/takeoff-staff-test-task/static/css/SignUp.a7d4be06.chunk.css",
+    "SignUp.js": "/takeoff-staff-test-task/static/js/SignUp.bdc38009.chunk.js",
+    "NotFound.css": "/takeoff-staff-test-task/static/css/NotFound.df29fc81.chunk.css",
+    "NotFound.js": "/takeoff-staff-test-task/static/js/NotFound.93a6d33d.chunk.js",
+    "static/js/787.29d75f3a.chunk.js": "/takeoff-staff-test-task/static/js/787.29d75f3a.chunk.js",
+    "index.html": "/takeoff-staff-test-task/index.html",
+    "main.22dfeec4.css.map": "/takeoff-staff-test-task/static/css/main.22dfeec4.css.map",
+    "main.e3980116.js.map": "/takeoff-staff-test-task/static/js/main.e3980116.js.map",
+    "SignUp.a7d4be06.chunk.css.map": "/takeoff-staff-test-task/static/css/SignUp.a7d4be06.chunk.css.map",
+    "SignUp.bdc38009.chunk.js.map": "/takeoff-staff-test-task/static/js/SignUp.bdc38009.chunk.js.map",
+    "NotFound.df29fc81.chunk.css.map": "/takeoff-staff-test-task/static/css/NotFound.df29fc81.chunk.css.map",
+    "NotFound.93a6d33d.chunk.js.map": "/takeoff-staff-test-task/static/js/NotFound.93a6d33d.chunk.js.map",
+    "787.29d75f3a.chunk.js.map": "/takeoff-staff-test-task/static/js/787.29d75f3a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22dfeec4.css",
+    "static/js/main.e3980116.js"
+  ]
+}
