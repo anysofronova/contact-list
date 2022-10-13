@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/takeoff-staff-test-task/static/css/main.da8907e3.css",
-    "main.js": "/takeoff-staff-test-task/static/js/main.f532ff7f.js",
-    "SignUp.css": "/takeoff-staff-test-task/static/css/SignUp.a7d4be06.chunk.css",
-    "SignUp.js": "/takeoff-staff-test-task/static/js/SignUp.bdc38009.chunk.js",
-    "NotFound.css": "/takeoff-staff-test-task/static/css/NotFound.df29fc81.chunk.css",
-    "NotFound.js": "/takeoff-staff-test-task/static/js/NotFound.93a6d33d.chunk.js",
-    "static/js/787.29d75f3a.chunk.js": "/takeoff-staff-test-task/static/js/787.29d75f3a.chunk.js",
-    "index.html": "/takeoff-staff-test-task/index.html",
-    "main.da8907e3.css.map": "/takeoff-staff-test-task/static/css/main.da8907e3.css.map",
-    "main.f532ff7f.js.map": "/takeoff-staff-test-task/static/js/main.f532ff7f.js.map",
-    "SignUp.a7d4be06.chunk.css.map": "/takeoff-staff-test-task/static/css/SignUp.a7d4be06.chunk.css.map",
-    "SignUp.bdc38009.chunk.js.map": "/takeoff-staff-test-task/static/js/SignUp.bdc38009.chunk.js.map",
-    "NotFound.df29fc81.chunk.css.map": "/takeoff-staff-test-task/static/css/NotFound.df29fc81.chunk.css.map",
-    "NotFound.93a6d33d.chunk.js.map": "/takeoff-staff-test-task/static/js/NotFound.93a6d33d.chunk.js.map",
-    "787.29d75f3a.chunk.js.map": "/takeoff-staff-test-task/static/js/787.29d75f3a.chunk.js.map"
+    "main.css": "/contact-list/static/css/main.ed2f8618.css",
+    "main.js": "/contact-list/static/js/main.e8360d8e.js",
+    "SignUp.css": "/contact-list/static/css/SignUp.46ca68ba.chunk.css",
+    "SignUp.js": "/contact-list/static/js/SignUp.38e023e8.chunk.js",
+    "NotFound.css": "/contact-list/static/css/NotFound.df29fc81.chunk.css",
+    "NotFound.js": "/contact-list/static/js/NotFound.947396a6.chunk.js",
+    "static/js/787.4151f0f6.chunk.js": "/contact-list/static/js/787.4151f0f6.chunk.js",
+    "index.html": "/contact-list/index.html",
+    "main.ed2f8618.css.map": "/contact-list/static/css/main.ed2f8618.css.map",
+    "main.e8360d8e.js.map": "/contact-list/static/js/main.e8360d8e.js.map",
+    "SignUp.46ca68ba.chunk.css.map": "/contact-list/static/css/SignUp.46ca68ba.chunk.css.map",
+    "SignUp.38e023e8.chunk.js.map": "/contact-list/static/js/SignUp.38e023e8.chunk.js.map",
+    "NotFound.df29fc81.chunk.css.map": "/contact-list/static/css/NotFound.df29fc81.chunk.css.map",
+    "NotFound.947396a6.chunk.js.map": "/contact-list/static/js/NotFound.947396a6.chunk.js.map",
+    "787.4151f0f6.chunk.js.map": "/contact-list/static/js/787.4151f0f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da8907e3.css",
-    "static/js/main.f532ff7f.js"
+    "static/css/main.ed2f8618.css",
+    "static/js/main.e8360d8e.js"
   ]
 }
