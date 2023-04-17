@@ -1,11 +1,11 @@
-import { useAuth } from "../../hooks/useAuth";
-import styles from "./Home.module.scss";
-import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-import { useAppSelector } from "../../hooks/redux";
-import ContactItem from "../../components/ContactItem/ContactItem";
+import { useNavigate } from "react-router-dom";
 
-const Home = () => {
+import styles from "./Home.module.scss";
+import { ContactItem } from "../../components";
+import { useAuth, useAppSelector } from "../../hooks";
+
+export const Home = () => {
   const { isAuth } = useAuth();
   const navigate = useNavigate();
   useEffect(() => {
@@ -26,5 +26,3 @@ const Home = () => {
     </section>
   );
 };
-
-export default Home;

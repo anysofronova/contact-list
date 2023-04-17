@@ -1,10 +1,11 @@
-import styles from "./ModalAddContact.module.scss";
-import { SubmitHandler, useForm } from "react-hook-form";
 import { FC } from "react";
 import clsx from "clsx";
-import { useAppDispatch } from "../../../hooks/redux";
-import { Contact } from "../../../@types/IContacts";
 import { v4 as uuidv4 } from "uuid";
+import { SubmitHandler, useForm } from "react-hook-form";
+
+import { Contact } from "../../../@types";
+import { useAppDispatch } from "../../../hooks";
+import styles from "./ModalAddContact.module.scss";
 import { addContact, changeContact } from "../../../redux/slices/contactsSlice";
 
 type ModalAddType = {
@@ -13,7 +14,11 @@ type ModalAddType = {
   setModal: (mode: boolean) => void;
 };
 
-const ModalAddContact: FC<ModalAddType> = ({ title, contact, setModal }) => {
+export const ModalAddContact: FC<ModalAddType> = ({
+  title,
+  contact,
+  setModal,
+}) => {
   const {
     register,
     handleSubmit,
@@ -105,5 +110,3 @@ const ModalAddContact: FC<ModalAddType> = ({ title, contact, setModal }) => {
     </div>
   );
 };
-
-export default ModalAddContact;

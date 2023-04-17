@@ -1,10 +1,11 @@
-import styles from "./Form.module.scss";
 import { FC } from "react";
-import { SubmitHandler, useForm } from "react-hook-form";
-import { IForm, InputsType } from "../../@types/IForm";
 import { Link } from "react-router-dom";
+import { SubmitHandler, useForm } from "react-hook-form";
 
-const Form: FC<IForm> = ({
+import styles from "./Form.module.scss";
+import { IForm, InputsType } from "../../@types";
+
+export const Form: FC<IForm> = ({
   title,
   isSignUp,
   buttonText,
@@ -71,5 +72,3 @@ const Form: FC<IForm> = ({
     </div>
   );
 };
-
-export default Form;

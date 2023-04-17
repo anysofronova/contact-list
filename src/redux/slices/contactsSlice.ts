@@ -1,6 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
-import { Contact, IContacts } from "../../@types/IContacts";
+
+import { Contact, IContacts } from "../../@types";
 
 const initialState: IContacts = {
   search: "",

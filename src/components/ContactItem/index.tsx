@@ -1,12 +1,13 @@
-import style from "./ContactItem.module.scss";
 import { FC, useState } from "react";
-import { Contact } from "../../@types/IContacts";
 import { Edit, PersonDelete } from "@styled-icons/evaicons-solid";
-import ModalAddContact from "../Header/ModalAddContact/ModalAddContact";
-import { useAppDispatch } from "../../hooks/redux";
+
+import { Contact } from "../../@types";
+import { ModalAddContact } from "../Header";
+import { useAppDispatch } from "../../hooks";
+import style from "./ContactItem.module.scss";
 import { deleteContact } from "../../redux/slices/contactsSlice";
 
-const ContactItem: FC<Contact> = ({ name, email, phone, id }) => {
+export const ContactItem: FC<Contact> = ({ name, email, phone, id }) => {
   const [modal, setModal] = useState<boolean>(false);
   const dispatch = useAppDispatch();
   const deleteItem = () => dispatch(deleteContact(id));
@@ -33,5 +34,3 @@ const ContactItem: FC<Contact> = ({ name, email, phone, id }) => {
     </div>
   );
 };
-
-export default ContactItem;
